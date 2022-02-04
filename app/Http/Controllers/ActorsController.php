@@ -18,7 +18,7 @@ class ActorsController extends Controller
             ->get('https://api.themoviedb.org/3/person/popular')
             ->json()['results'];
 
-        dump($popularActors);
+        //dump($popularActors);
 
         return view('actors.index', [
             'popularActors' => $popularActors,

@@ -19,12 +19,12 @@
                         <img src="/images/icon.png" class="w-14 ml-2" alt="movie icon">
                     </a>
                 </li>
-                {{-- <li class="md:ml-16 my-2">
+                <li class="md:ml-16 my-2">
                     <a href="{{ route('movie.index') }}" class="hover:text-gray-300">Movies</a>
-                </li> --}}
-                {{-- <li class="md:ml-8 my-2">
-                    <a href="#" class="hover:text-gray-300">Tv Series</a>
                 </li>
+                <li class="md:ml-8 my-2">
+                    <a href="{{ route('tvshow.index') }}" class="hover:text-gray-300">Tv Series</a>
+                </li> {{--
                 <li class="md:ml-8 my-2">
                     <a href="{{ route('actors.index') }}" class="hover:text-gray-300">Actors</a>
                 </li> --}}
